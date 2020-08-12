@@ -18,43 +18,23 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         // Create a ConstraintLayout in which to add the ImageView
-        //constraintLayout = new ConstraintLayout(this);
-        constraintLayout = findViewById(R.id.lytCons);
+        //3. Exercise point
 
         // Instantiate an ImageView and define its properties
-        i = new ImageView(this);
-        i.setImageResource(R.drawable.image1);
-        i.setContentDescription(getResources().getString(R.string.my_image_desc));
-        i.setId(R.id.image1);
+        //4. Exercise point
+
+
 
         // set the ImageView bounds to match the Drawable's dimensions
-        i.setAdjustViewBounds(true);
-        i.setLayoutParams(new ViewGroup.LayoutParams(
-                ViewGroup.LayoutParams.WRAP_CONTENT,
-                ViewGroup.LayoutParams.WRAP_CONTENT));
+        //5. Exercise point
+
 
         // Add the ImageView to the layout and set the layout as the content view.
-
-
-
-
     }
 
     public void displayImage(View view){
+        //6. Exercise point
 
-        try {
-            constraintLayout.addView(i);
-            setContentView(constraintLayout);
-            Button button = findViewById(R.id.btnShow);
-            button.setText(R.string.txtBtnR);
-
-
-        }catch (Exception e){
-            View image = findViewById(R.id.image1);
-            constraintLayout.removeView(image);
-            Button button = findViewById(R.id.btnShow);
-            button.setText(R.string.txtBtn);
-        }
 
     }
 }
