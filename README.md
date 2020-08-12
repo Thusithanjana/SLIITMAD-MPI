@@ -6,3 +6,4 @@ Android Studio: Image view Example
 
 ## Impoortant Notes
 This is a repository made for teaching purposes
+This is the exercise branch. Important codes are missing Students have to follow the Exercise sheet
